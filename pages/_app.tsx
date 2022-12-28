@@ -3,7 +3,7 @@ import { NextComponentType } from "next";
 import GuestLayout from "@/layouts/guest-layout";
 import { Fragment } from "react";
 import Head from "next/head";
-import '../styles/globals.css';
+import "../styles/globals.css";
 
 interface CustomAppProps extends AppProps {
   Component: NextPageWithLayout;
